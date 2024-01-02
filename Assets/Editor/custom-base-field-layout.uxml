@@ -20,7 +20,7 @@
     
     
     <engine:VisualElement name="container-double-text-boxes" class="custom-unity-field-container">
-        <engine:TextField name="label" class="custom-unity-field-label" text="Custom integer field" style="margin-left:0px;margin-right:1px"></engine:TextField>
+        <engine:TextField name="label" class="custom-unity-field-label" text="Custom integer field" style="margin-left:0px;margin-right:1px; padding-right:0px; margin-right:0px"></engine:TextField>
         <editor:IntegerField name="value" class="custom-unity-field-value" style="margin-left:1px"></editor:IntegerField>
     </engine:VisualElement>
     <engine:VisualElement name="container-double-text-boxes" class="custom-unity-field-container">
