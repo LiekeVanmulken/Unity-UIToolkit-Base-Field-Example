@@ -1,0 +1,85 @@
+.custom-unity-field-container {
+    /* class: .unity-base-field     */
+    flex-direction: row;
+    flex-shrink:0;
+    
+    overflow: hidden;
+    
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+    /* class: .unity-base-text-field  */
+    white-space: nowrap;
+    /*--unity-selection-color:rgba(0.239, 0.502, 0.875, 0.651);*/
+    /*--unity-cursor-color: rgba(0.706, 0.706, 0.706, 1);*/
+    
+    /*      .unity-base-field__inspector-field*/
+    margin-right: -2px;
+    
+    /*    Custom */
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+.custom-unity-field-label{
+    /* class: .unity-base-field__label    */
+    min-width: 150px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-right: 2px;
+    /*color: rgba(0.769, 0.769, 0.769, 1);*/
+    
+    /* class: .unity-base-field__label--with-dragger*/
+    cursor: slide-arrow;
+    
+    /* class: .unity-label*/
+    flex: 0 0 auto;
+    margin-top:0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    white-space: nowrap;
+    
+    /*    Custom*/
+    -unity-overflow-clip-box: content-box;
+}
+
+.custom-unity-field-value{
+    /* class: .unity-base-field__input  */
+    flex: 1 0 0;
+    overflow: hidden;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    
+    /* class: .unity-base-text-field__input*/
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    cursor: text;
+    -unity-overflow-clip-box: content-box;
+    flex: 1 1 auto;
+    /*background-color: rgba(0.165,0.165,0.165,1);*/
+    border-width: 1px;
+    /*border-left-color: rgba(0.129,0.129,0.129,1);*/
+    /*border-top-color: rgba(0.051, 0.051, 0.051, 1);*/
+    /*border-right-color: rgba(0.129, 0.129, 0.129, 1);*/
+    border-radius: 3px;
+    /*color: rgba(0.824, 0.824,0.824,1);*/
+    -unity-sync-text-editor: true;
+
+    /* class: .unity-base-text-field__input--single-line */
+    -unity-text-align: middle-left;
+    
+    /* custom code   */
+    margin-left: -2px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}

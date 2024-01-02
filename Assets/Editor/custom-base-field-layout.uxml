@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <editor:IntegerField name="unity-integer-field" label="Unity integer field"></editor:IntegerField>
+    <editor:IntegerField name="unity-integer-field" label="Unity integer field"></editor:IntegerField>
+    
+    
+    <engine:VisualElement name="container-custom-label" class="custom-unity-field-container">
+                <engine:Label name="label" class="custom-unity-field-label" text="Custom integer field"></engine:Label>
+        <editor:IntegerField name="value" class="custom-unity-field-value"></editor:IntegerField>
+    </engine:VisualElement>
+    <engine:VisualElement name="container-custom-label" class="custom-unity-field-container">
+        <engine:Label name="label" class="custom-unity-field-label" text="Custom integer field"></engine:Label>
+        <editor:IntegerField name="value" class="custom-unity-field-value"></editor:IntegerField>
+    </engine:VisualElement>
+    
+    
+    <engine:VisualElement name="container-double-text-boxes" class="custom-unity-field-container">
+        <engine:TextField name="label" class="custom-unity-field-label" text="Custom integer field" style="margin-left:0px;margin-right:1px"></engine:TextField>
+        <editor:IntegerField name="value" class="custom-unity-field-value" style="margin-left:1px"></editor:IntegerField>
+    </engine:VisualElement>
+    <engine:VisualElement name="container-double-text-boxes" class="custom-unity-field-container">
+        <engine:TextField name="label" class="custom-unity-field-label" text="Custom integer field" style="margin-left:0px;margin-right:1px"></engine:TextField>
+        <editor:IntegerField name="value" class="custom-unity-field-value" style="margin-left:1px"></editor:IntegerField>
+    </engine:VisualElement>
+</engine:UXML>
