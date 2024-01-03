@@ -10,21 +10,16 @@
     
     
     <engine:VisualElement name="container-custom-label" class="custom-unity-field-container">
-                <engine:Label name="label" class="custom-unity-field-label" text="Custom integer field"></engine:Label>
-        <editor:IntegerField name="value" class="custom-unity-field-value"></editor:IntegerField>
+                <engine:Label name="integer-field-label" class="custom-unity-field-label" text="Custom integer field"></engine:Label>
+        <editor:IntegerField name="integer-field-value" class="custom-unity-field-value"></editor:IntegerField>
     </engine:VisualElement>
     <engine:VisualElement name="container-custom-label" class="custom-unity-field-container">
-        <engine:Label name="label" class="custom-unity-field-label" text="Custom integer field"></engine:Label>
-        <editor:IntegerField name="value" class="custom-unity-field-value"></editor:IntegerField>
+        <engine:Label name="float-field-label" class="custom-unity-field-label" text="Custom float field"></engine:Label>
+        <editor:FloatField name="float-field-value" class="custom-unity-field-value"></editor:FloatField>
     </engine:VisualElement>
-    
-    
+
     <engine:VisualElement name="container-double-text-boxes" class="custom-unity-field-container">
-        <engine:TextField name="label" class="custom-unity-field-label" text="Custom integer field" style="margin-left:0px;margin-right:1px; padding-right:0px; margin-right:0px"></engine:TextField>
-        <editor:IntegerField name="value" class="custom-unity-field-value" style="margin-left:1px"></editor:IntegerField>
-    </engine:VisualElement>
-    <engine:VisualElement name="container-double-text-boxes" class="custom-unity-field-container">
-        <engine:TextField name="label" class="custom-unity-field-label" text="Custom integer field" style="margin-left:0px;margin-right:1px"></engine:TextField>
-        <editor:IntegerField name="value" class="custom-unity-field-value" style="margin-left:1px"></editor:IntegerField>
+        <engine:TextField name="double-text-field-label" class="custom-unity-field-label" text="Custom double text field" style="margin-left:0px;" ></engine:TextField>
+        <editor:IntegerField name="double-text-field-value" class="custom-unity-field-value" ></editor:IntegerField>
     </engine:VisualElement>
 </engine:UXML>
