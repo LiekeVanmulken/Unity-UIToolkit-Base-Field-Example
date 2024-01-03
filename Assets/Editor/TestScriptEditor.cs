@@ -9,7 +9,7 @@ public class TestScriptEditor : Editor
 {
     public override VisualElement CreateInspectorGUI()
     {
-        
+        Debug.Log("loaded uss " + DateTime.Now.Ticks);
         StyleSheet styleSheet = AssetDatabase.LoadAssetAtPath<StyleSheet>("Assets/Editor/custom-base-field.uss");
         VisualTreeAsset uiTemplate = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/Editor/custom-base-field-layout.uxml");
         VisualElement root = uiTemplate.Instantiate();

@@ -36,7 +36,7 @@
     /*color: rgba(0.769, 0.769, 0.769, 1);*/
     
     /* class: .unity-base-field__label--with-dragger*/
-    cursor: slide-arrow;
+    /*cursor: slide-arrow;*/
     
     /* class: .unity-label*/
     flex: 0 0 auto;
@@ -47,6 +47,8 @@
     
     /*    Custom*/
     -unity-overflow-clip-box: content-box;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 
 .custom-unity-field-value{
@@ -62,7 +64,7 @@
     padding-right: 2px;
     padding-top: 1px;
     padding-bottom: 0px;
-    cursor: text;
+    /*cursor: text;*/
     -unity-overflow-clip-box: content-box;
     flex: 1 1 auto;
     /*background-color: rgba(0.165,0.165,0.165,1);*/
@@ -72,13 +74,14 @@
     /*border-right-color: rgba(0.129, 0.129, 0.129, 1);*/
     border-radius: 3px;
     /*color: rgba(0.824, 0.824,0.824,1);*/
-    -unity-sync-text-editor: true;
+    /*-unity-sync-text-editor: true;*/
 
     /* class: .unity-base-text-field__input--single-line */
     -unity-text-align: middle-left;
     
-    /* custom code   */
-    margin-left: -2px;
+    /* custom code   */    
+    margin-left: 0px;
+    padding-left: 1px;
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
