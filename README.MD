@@ -1,6 +1,6 @@
 # Unity Custom Base field Example 
 
-This repository contains the example and source used to create a unity base field. 
+This repository contains the example and source used to create an unity base field. 
 
 The unity base field seems to be scaling in a very special way. If you want to add custom fields they will scale differently. This css let's you scale fields the fields according to the unity standard. This also removes the space between fields. 
 
