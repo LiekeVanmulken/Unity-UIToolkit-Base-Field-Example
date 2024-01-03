@@ -1,4 +1,4 @@
-### Unity Custom Base field Example 
+# Unity Custom Base field Example 
 
 This repository contains the example and source used to create a unity base field. 
 
@@ -10,5 +10,5 @@ The USS can be found in `Assets/Editor/custom-base-field.uss`. And example layou
 
 Some fields that you might want to use do need to be added an extra style margin to zero the defaults. This can be seen in the layout as well. I say this mainly to notify that you might still need a little fiddling when using custom fields. 
 
-[Fields possible to make with the uss](custom-fields.png)
-[The base field scaling correctly](custom-fields-scaling.gif)
+![Fields possible to make with the uss](custom-fields.png)
+![The base field scaling correctly](custom-fields-scaling.gif)
