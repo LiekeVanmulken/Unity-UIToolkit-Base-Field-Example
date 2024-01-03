@@ -1,4 +1,4 @@
-# Unity Custom Base field Example 
+# Unity Scaling Custom Base field Example 
 
 This repository contains the example and source used to create an unity base field. 
 
