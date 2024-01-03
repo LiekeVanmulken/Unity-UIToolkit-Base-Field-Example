@@ -2,7 +2,7 @@
 
 This repository contains the example and source used to create an unity base field. 
 
-The unity base field seems to be scaling in a very special way. If you want to add custom fields they will scale differently. This css let's you scale fields the fields according to the unity standard. This also removes the space between fields. 
+The unity base field seems to be scaling in a very special way. If you want to add custom fields they will scale differently. This USS let's you scale fields the fields according to the unity standard. This also removes the space between fields. 
 
 The USS was extracted by creating a IntegerField. Then going to the UI Toolkit Debugger and for each class copying the Unity USS. The classes it was copied from can be found in the USS. 
 
