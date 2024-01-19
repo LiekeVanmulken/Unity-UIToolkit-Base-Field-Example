@@ -1,6 +1,6 @@
 # Unity Scaling Custom Base field Example 
 
-This repository contains the example and source used to create an unity base field. A blog post about how it was created and how it works can be found on ![codinglike.lieke.lgbt](https://codinglike.lieke.lgbt/posts/unity-uitoolkit-base-field/).
+This repository contains the example and source used to create an unity base field. A blog post about how it was created and how it works can be found on [codinglike.lieke.lgbt](https://codinglike.lieke.lgbt/posts/unity-uitoolkit-base-field/).
 
 The unity base field seems to be scaling in a very special way. If you want to add custom fields they will scale differently. This USS let's you scale fields the fields according to the unity standard. This also removes the space between fields. 
 
