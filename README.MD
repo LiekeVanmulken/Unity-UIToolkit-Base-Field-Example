@@ -3,7 +3,7 @@
 This repository contains the example and source used to create an unity base field. A blog post about how it was created and how it works can be found on [codinglike.lieke.lgbt](https://codinglike.lieke.lgbt/posts/unity-uitoolkit-base-field/).
 
 ## Problem
-When creating your own custom fields in Unity UIToolkit they are to style them like Unity fields. Unity has styling to accomplish this using the base-field class. However how it works and how to implement it is undocumented and difficult to emulate. This becomes a problem primarily during scaling as the fields will look quite different and not line up. 
+When creating your own custom fields in Unity UIToolkit they are hard to style them like Unity fields. Unity has styling to accomplish this using the base-field class. How the base-field works and how to implement it, is undocumented and difficult to emulate. This becomes a problem primarily during scaling as the fields will look quite different and not line up. 
 
 
 ## Solution
